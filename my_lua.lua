@@ -10,3 +10,4 @@ function Image(img)
       return pandoc.RawInline('markdown',content)
     end
 end
+//vim.api.nvim_set_hl(0, "Normal", { fg = colors.text, bg = colors.crust })
